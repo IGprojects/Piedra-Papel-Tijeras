@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pidra, Papel, Tijeras</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" type="text/javascript" defer></script><!--DEFER ATRIBUT PER CARREGAR EL SCRIPT JSON UN COP S'HAGI CARREGAT TOT EL DOM I NO HI HAGIN PROBLEMAS-->
+    <link rel="icon" type="image/x-icon" href="images/piedra-papel-tijeras.png">
+</head>
+
+<body>
+    <div class="main">
+        <h1>Piedra, Papel, Tijeras</h1>
+        <div class="buttons">
+            <button type="button" id="pedra" onclick="butoclicat(event)"><img id="0" src="images/punyo.png" height="60px" width="70px"/></button>
+            <button type="button" id="paper" onclick="butoclicat(event)"><img id="1" src="images/papel.png" height="70px" width="80px"/></button>
+            <button type="button" id="tisores" onclick="butoclicat(event)"><img id="2" src="images/tijeras.png" height="60px" width="80px"/></button>
+        </div>
+        <div class="start">
+            <button style="border-radius: 5px;" type="button" onclick="lluita(event)">Jugar</button>
+        </div>
+            <div id="Resultado">
+                <a id="punts_humano">Humano 0</a>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a id="punts_maquina">Maquina 0</a>
+            </div>
+    </div>
+</body>
+</html>

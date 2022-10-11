@@ -1,0 +1,67 @@
+body{
+    background-color: aquamarine;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+img {
+    pointer-events: none;
+    /*SERVEIX PER QUAN ES SELECCIONA EL BOTO NO SELCCIONI LA IMATGE QUE ES TA DINS EL BOTO
+    AIXO FA COM SI LIMATGE NO ESTIGUES SELECCIONABLE
+    */
+  }
+
+button{
+    border-radius: 5px;
+    font-size: large;
+    padding: 10px;
+    margin: 3px;
+    border-radius: 60%;
+    
+}
+
+button:hover{
+    background-color: rgb(130, 238, 233);
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+
+.main{
+    background-color: rgb(0, 191, 255);
+    font-family: "Calibri";
+    padding: 0% 5% 5px 5%;
+    border-radius: 10px;
+}
+
+.start{
+    margin-top: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#Resultado{
+    background-color: rgb(226, 43, 86);
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 10% 0% 5% 5%;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+}
+
+.seleccionat{
+    background-color: rgb(130, 238, 233);
+}
+
+h1{
+    margin-left: 16px;
+    margin-bottom: 20%;
+    color: white;
+}
